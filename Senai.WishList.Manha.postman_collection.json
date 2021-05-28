@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "ee49b8a8-84f9-41bc-be47-47692986ac0d",
+		"name": "Senai.WishList.Manha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WishList.listartodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/desejos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"desejos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
