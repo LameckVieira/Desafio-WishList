@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+    --roxo: #787CDE;
+    --background: #FFFFFF;
+    --font: 'Pacifico', sans-serif;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content{
+    width: 95%;
+    height: 7.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#787CDE;
+}
+
+.li{
+    font-family:var(--font);
+    list-style: none;
+    font-size: 3.6rem;
+    font-style: #FFFFFF;
+}
+
+.a{
+    color: var(--background);
+    text-decoration: none;
+}
+
+.principal{
+    width: 95%;
+    height: 57.5rem;
+    margin: auto;
+}
+
+.edicao{
+    width: 95%;
+    height: 57.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.adicionar{
+    width: 100%;
+    height: 11.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: yellow; */
+}
+
+.h1{
+    font-family: var(--font);
+    font-size: 3.0rem;
+    color: var(--roxo);
+    padding-bottom: 1rem;
+}
+.descricao{
+    width: 100%;
+    height: 24.1rem;
+    /* background-color: #CCCC; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    width: 98.1rem;
+    height: 24.1rem;
+    background-color: #787CDE;
+    border-radius: 1.0rem;
+    display: flex;
+}
+
+.quadradinho{
+    width: 83.6rem;
+    height: 24.1rem;
+}
+
+.dc{
+    width: 83.6rem;
+    height: 6.4rem;
+    font-family: var(--font);
+    display: flex;
+    align-items: flex-end;
+    padding-left: 4.2rem;
+    font-size: 1.4rem;
+    color: var(--background);
+    
+}
+
+.ec{
+    width: 83.6rem;
+    height: 17.8rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ecc{
+    width: 77.0rem;
+    height: 15.0rem;
+    display: flex;
+    background-color: var(--background);
+    font-family: var(--font);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    color: #000000b2;
+}
+
+.denovo{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario{
+    width: 14.4rem;
+    height: 6.3rem;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+}
+
+.hh3{
+    font-family: var(--font);
+    color: var(--background);
+}
+
+.txt{
+    width: 14.4rem;
+    height: 17.7rem;
+}
+
+.es{
+    width: 11.2rem;
+    height: 3.4rem;
+    background-color: var(--background);
+    border-radius: 1.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000b2;
+}
+
+.hhh3{
+    font-family: var(--font);
+    font-size: 1.4rem;
+}
+
+.botao{
+    width: 100%;
+    height: 21.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.bt{
+    width: 18.8rem;
+    height: 5.3rem;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 2.4rem;
+    background-color: var(--roxo);
+    border-radius: 1.0rem;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.barrinha{
+    width: 110.0rem;
+    border-bottom: solid 0.3rem var(--roxo);
+}
+
+.desejos{
+    width: 95%;
+    height: 113.0rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.jose{
+    width: 110.0rem;
+    height: 113.0rem;
+}
+
+.desejotxt{
+    width: 110rem;
+    height: 12.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.dtxt{
+    font-family: var(--font);
+    font-size: 3.0rem;
+    color: #787CDE;
+}
+
+
+.nesk{
+    width: 110.0rem;
+    height: 100.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quadradinhos{
+    width: 28.5rem;
+    height: 41.4rem;
+    background-color: var(--roxo);
+    border-radius: 1rem;
+}
+
+.dentrodoquadrado{
+    width: 28.5rem;
+    height: 27.9rem;
+}
+
+.desh2{
+    width: 28.5rem;
+    height: 6.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    color: var(--background);
+    font-size: 2.4rem;
+}
+
+.div1{
+    width: 28.5rem;
+    height: 21.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 1.5rem;
+}
+
+.p1{
+    width: 23.1rem;
+    height: 21.8rem;
+    display: flex;
+    text-align: center;
+    color: var(--background);
+    border-bottom: solid 0.2rem var(--background);
+}
+
+.usu{
+    width: 28.5rem;
+    height: 10.1rem;
+    
+}
+
+.usuh2{
+    width: 28.5rem;
+    height: 5.05rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background);
+    font-size: 2.4rem;
+    font-family: var(--font);
+}
+
+.p2{
+    width: 28.5rem;
+    height: 5.05rem;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    font-size: 1.4rem;
+    font-family: var(--font);
+    color: var(--background);
+    border-radius: 1rem;
+}
+
+.data{
+    width: 28.5rem;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.rodape{
+    width: 100%;
+    height: 7.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quase{
+    width: 95%;
+    height: 7.0rem;
+    background-color: var(--roxo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quasequase{
+    width: 59.5rem;
+    height: 7.0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fim{
+    width: 59.5rem;
+    height: 7.0rem;
+    display: flex;
+    font-size: 3.2rem;
+    font-family: var(--font);
+    color: var(--background);
+    align-items: center;
+    justify-content: space-around;
+}
